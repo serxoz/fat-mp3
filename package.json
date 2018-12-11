@@ -1,7 +1,7 @@
 {
 	"name": "fat-mp3",
 	"version": "0.1.0",
-	"description": "Pipe an MP3 stream to your speakers",
+	"description": "Play an MP3 from either a file or over HTTP through your speakers",
 	"main": "index.js",
 	"dependencies": {
 		"lame": "1.2.4",
