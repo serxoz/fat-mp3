@@ -1,0 +1,26 @@
+{
+	"name": "fat-mp3",
+	"version": "0.1.0",
+	"description": "Pipe an MP3 stream to your speakers",
+	"main": "index.js",
+	"dependencies": {
+		"lame": "1.2.4",
+		"request": "2.88.0",
+		"speaker": "0.4.1"
+	},
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/isdampe/fat-mp3/fat-mp3.git"
+	},
+	"keywords": [
+		"mp3",
+		"stream",
+		"audio",
+		"speaker",
+		"play"
+	],
+	"author": "isdampe",
+	"license": "MIT"
+}
