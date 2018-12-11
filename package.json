@@ -6,10 +6,10 @@
 	"dependencies": {
 		"lame": "1.2.4",
 		"request": "2.88.0",
-		"speaker": "0.4.1"
+		"speaker": "0.4.1",
+		"growl": ">=1.10.0"
 	},
-	"scripts": {
-	},
+	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/isdampe/fat-mp3/fat-mp3.git"
