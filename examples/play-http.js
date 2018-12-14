@@ -4,8 +4,9 @@ const player = new fmp3("http://k007.kiwi6.com/hotlink/p1924y0omx/Souriez_Quand_
 player.play();
 
 setTimeout(()=>{
-	console.log("Pause");
-	player.pause();
+	player.pause(() => {
+		console.log("Pause complete");
+	});
 }, 10000);
 
 setTimeout(()=>{
