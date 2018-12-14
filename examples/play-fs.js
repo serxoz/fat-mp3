@@ -1,7 +1,6 @@
 const fmp3 = require("../index.js");
 
 const player = new fmp3("test.mp3");
-player.startBuffering();
 player.play();
 
 setTimeout(()=>{
