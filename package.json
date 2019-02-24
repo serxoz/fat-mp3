@@ -1,13 +1,14 @@
 {
 	"name": "fat-mp3",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Play an MP3 from either a file or over HTTP through your speakers",
 	"main": "index.js",
 	"dependencies": {
 		"lame": "1.2.4",
 		"request": "2.88.0",
 		"speaker": "0.4.1",
-		"growl": ">=1.10.0"
+		"growl": ">=1.10.0",
+		"pcm-volume": ">=1.0.0"
 	},
 	"scripts": {},
 	"repository": {
