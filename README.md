@@ -31,6 +31,10 @@ hPlayer.play();
 ```js
 const fmp3 = require("fat-mp3");
 const hPlayer = new fmp3("http://somesite.com/test.mp3");
+hPlayer.on("error", (err) => {
+	console.log("An error occurred.");
+	console.error(err);
+});
 hPlayer.startBuffering();
 
 // Let the player buffer for thirty seconds before playback begins.
