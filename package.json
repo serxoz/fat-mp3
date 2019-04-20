@@ -1,6 +1,6 @@
 {
 	"name": "fat-mp3",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "Play an MP3 from either a file or over HTTP through your speakers",
 	"main": "index.js",
 	"dependencies": {
