@@ -1,6 +1,6 @@
 {
 	"name": "@serxoz/fat-mp3",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"description": "Play an MP3 from either a file or over HTTP through your speakers",
 	"main": "index.js",
 	"dependencies": {
